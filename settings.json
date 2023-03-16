@@ -1,0 +1,33 @@
+{
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.classpath": false,
+    "**/.project": false,
+    "**/.settings": false,
+    "**/.factorypath": false,
+    "**/.git": false
+  },
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-linux"
+    }
+  },
+  "workbench.startupEditor": "none"
+}
